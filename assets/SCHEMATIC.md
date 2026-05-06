@@ -22,17 +22,24 @@ DieselDash is designed to plug directly into an Arduino Uno with an **LCD1602 Ke
 ---
 
 ## 2. Compatibility Matrix
-DieselDash is compatible with any sensor providing a linear 0-5V analog output. The following profiles are pre-mapped in the source code:
 
+The following hardware profiles are pre-mapped in the source code. Please note that while the formulas are implemented based on official manufacturer datasheets, they are currently marked as **Not Tested** until verified by a community member using the physical hardware.
 
-| Brand | Model | Type | Status | Analog Scale (0-5V) |
-| :--- | :--- | :--- | :--- | :--- |
-| **Innovate** | TC-4 / TC-4 Plus | EGT (4-ch) | **Verified** | 24°C – 1093°C |
-| **Innovate** | LC-1 / LC-2 | Wideband | **Verified** | 7.35 – 22.39 AFR |
-| **FuelTech** | ETM-1 | EGT (1-ch) | **Verified** | 0°C – 1250°C |
-| **AEM** | X-Series (EGT) | EGT (1-ch) | **Verified** | 0°C – 1000°C |
-| **AEM** | X-Series (AFR) | Wideband | **Verified** | 8.5 – 18.0 AFR (0.5-4.5V) |
-| **PLX Devices**| SM-EGT | EGT (1-ch) | **Verified** | 0°C – 1023°C |
+### EGT Conditioners (0-5V Analog)
+
+| Brand | Model | Status | Voltage Scale |
+| :--- | :--- | :--- | :--- |
+| **Innovate** | TC-4 / TC-4 Plus | **Not Tested** | 24°C – 1093°C |
+| **FuelTech** | ETM-1 | **Not Tested** | 0°C – 1250°C |
+| **AEM** | X-Series (EGT) | **Not Tested** | 0°C – 1000°C |
+| **PLX Devices**| SM-EGT | **Not Tested** | 0°C – 1023°C |
+
+### Wideband AFR Controllers (0-5V Analog)
+
+| Brand | Model | Status | Voltage Scale |
+| :--- | :--- | :--- | :--- |
+| **Innovate** | LC-1 / LC-2 | **Not Tested** | 7.35 – 22.39 AFR |
+| **AEM** | X-Series (AFR) | **Not Tested** | 8.50 – 18.00 AFR (0.5-4.5V) |
 
 ---
 
