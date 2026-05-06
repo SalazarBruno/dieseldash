@@ -3,7 +3,7 @@
 
 [![License: GPL v3](https://shields.io)](https://gnu.org)
 
-A high-reliability Arduino-based monitoring system for diesel engines. This project integrates 4-channel EGT (Exhaust Gas Temperature) and real-time Wideband AFR (Air-Fuel Ratio) monitoring into a single dashboard.
+A Arduino-based monitoring system for diesel engines. This project integrates 4-channel EGT (Exhaust Gas Temperature) and real-time Wideband AFR (Air-Fuel Ratio) monitoring into a single dashboard.
 
 **[Leia este documento em Português (Brasil)](README.pt-br.md)**
 
